@@ -1,0 +1,244 @@
+body{
+	margin: 0;
+	background: rgba(50, 90, 249, 1.0);
+}
+
+body::-webkit-scrollbar{
+	display: none;
+	/*-ms-overflow-style: none;
+	scrollbar-width: none;*/
+}
+
+.box-1{
+	width: 195vh;
+	height: 50vh;
+	border: 4px solid #BBB;
+	border-radius: 20px 20px 50px 50px;
+	position: relative;
+	top: 20vh;
+	background: rgb(50, 50, 50);
+}
+.box-2{
+	width: 176vh;
+	height: 26vh;
+	/*border: 1px solid black;*/
+	position: relative;
+	top: 23vh;
+}
+.major-keys{
+	width: 5vh;
+	height: 25vh;
+	background: white;
+	border: 1px solid #BBB;
+
+
+	display: inline-block;
+	/*grid-template-columns: 30px 30px 30px;*/
+}
+
+#group-m{
+	width: 176vh;
+	height: 13vh;
+	/*border: 3px solid orange;*/
+	position: relative;
+	top: -3.5vh;
+}
+
+
+
+.minor-keys{
+	height: 13vh;
+	/*width: clamp(24px, 3vh, 48px);*/
+	width: 3vh;
+	background: black;
+	border: 1px solid black;
+	display: inline-block;
+	}
+
+h1{
+	position: relative;
+	top: -30vh;
+}
+.zone{
+	cursor: pointer;
+	color: #fff;
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+}
+.zone:hover{
+	-webkit-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	-moz-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	-o-box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.coolTitle{
+	text-align: center;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: 4px;
+	word-spacing: -8px;
+	text-shadow: 
+		1px 1px 0 blue,
+		2px 2px 0 blue,
+		3px 3px 0 blue,
+		4px 4px 0 blue,
+		5px 5px 0 red,
+		6px 6px 0 red,
+		7px 7px 0 red,
+		8px 8px 0 red,
+		30px -20px 40px rgb(50, 50, 50);
+}
+
+
+
+.webiano{
+	width: 20vw;
+	height: 10vh;
+	/*border: 2px solid black;*/
+	border-radius: 10px 25px 10px 25px;
+	font-family: "Bauhaus 93";
+	font-size: clamp(4px, 30vh, 48px);
+	color: rgb(228, 228, 228);
+	padding: 0.5em;
+	position: relative;
+	top: -38vh;
+	animation: float 1s infinite;
+/*		-webkit-box-shadow: rgba(255,255,255,0.8) 0px 5px 15px, inset rgba(255,255,255,0.15) 0px -10px 20px;
+	-moz-box-shadow: rgba(255,255,255,0.8) 0px 5px 15px, inset rgba(255,255,255,0.15) 0px -10px 20px;
+	-o-box-shadow: rgba(255,255,255,0.8) 0px 5px 15px, inset rgba(255,255,255,0.15) 0px -10px 20px;
+	box-shadow: rgba(255,255,255,0.8) 0px 5px 15px, inset rgba(255,255,255,0.15) 0px -10px 20px;*/
+}
+
+.select-1{
+	width: 20vw;
+	height: 18vh;
+	/*border: 2px solid black;*/
+	border-radius: 10px 25px 10px 25px;
+	position: relative;
+	top: -56vh;
+	left: -67vh;
+	color: #bbb;
+	font-family: "Book Antiqua";
+	font-size: 20px;
+}
+
+p > select{
+	width: 15vw;
+	height: 6vh;
+	padding: 3vh 0vh 0vh 0vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.minor-keys:nth-child(1){
+	position: relative;
+	right: 43vh;
+}
+.minor-keys:nth-child(2){
+	position: relative;
+	right: 41vh;
+}
+.minor-keys:nth-child(3){
+	position: relative;
+	right: 33vh;
+}
+.minor-keys:nth-child(4){
+	position: relative;
+	right: 31vh;
+}
+.minor-keys:nth-child(5){
+	position: relative;
+	right: 29vh;
+}
+.minor-keys:nth-child(6){
+	position: relative;
+	right: 21vh;
+}
+.minor-keys:nth-child(7){
+	position: relative;
+	right: 19vh;
+}
+.minor-keys:nth-child(8){
+	position: relative;
+	right: 11vh;
+}
+.minor-keys:nth-child(9){
+	position: relative;
+	right: 9vh;
+}
+.minor-keys:nth-child(10){
+	position: relative;
+	right: 7vh;
+}
+.minor-keys:nth-child(11){
+	position: relative;
+	right: -1vh;
+}
+.minor-keys:nth-child(12){
+	position: relative;
+	right: -3vh;
+}
+.minor-keys:nth-child(13){
+	position: relative;
+	right: -11vh;
+}
+.minor-keys:nth-child(14){
+	position: relative;
+	right: -13vh;
+}
+.minor-keys:nth-child(15){
+	position: relative;
+	right: -15vh;
+}
+.minor-keys:nth-child(16){
+	position: relative;
+	right: -23vh;
+}
+.minor-keys:nth-child(17){
+	position: relative;
+	right: -25vh;
+}
+.minor-keys:nth-child(18){
+	position: relative;
+	right: -33vh;
+}
+.minor-keys:nth-child(19){
+	position: relative;
+	right: -35vh;
+}
+.minor-keys:nth-child(20){
+	position: relative;
+	right: -37vh;
+}
+
+
+@keyframes float{
+	0%{top:-38vh;}
+	30%{top:-40vh;}
+	70%{top:-40vh;}
+	100%{top:-38vh;}
+}
+
+
+/*@keyframes jump{
+	0%{top:150px;}
+	30%{top:100px;}
+	70%{top:100px;}
+	100%{top:150px;}
+}
+
+@keyframes block{
+	0%{left:480px;}
+	100%{left:-480px;}
+}*/
